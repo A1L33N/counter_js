@@ -5,11 +5,11 @@ var counter = function(num1, num2) {
   var array = [];
 
   while (result < top) {
-    debugger
+
 
     result +=  num2;
     array.push(result);
-    debugger;
+
   }
   return array.join(', ');
 };
